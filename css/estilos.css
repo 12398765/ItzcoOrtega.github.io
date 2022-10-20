@@ -1,0 +1,560 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(213, 195, 219);
+}
+
+.menu {
+    width: 100%;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    background-color: rgba(121, 103, 128, 0.753);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile img:hover {
+    width: 55px;
+    height: 55px;
+    border: 1px solid blue;
+}
+
+.items-hamburguesa {
+    transform: translateY(-200px);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: rgba(166, 139, 175, 0.3);
+}
+
+.items-hamburguesa.before {
+    transition: 1s;
+    transform: translateY(-200px);
+}
+
+.items-hamburguesa.after {
+    transition: 1s;
+    transform: translateY(0);
+    transition-delay: 100ms;
+}
+
+.items-hamburguesa.after a:hover {
+    background-color: rgba(166, 139, 175, 0.8);
+    color: yellow;
+    font-size: 17px;
+}
+
+.items a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.items-hamburguesa a {
+    color: #000;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.items a:hover {
+    color: yellow;
+    font-size: 17px;
+}
+
+.hamburguesa {
+    display: none;
+}
+
+.hamburguesa span {
+    cursor: pointer;
+}
+
+.content-All {
+    margin-top: -70px;
+}
+
+.content-All.mas {
+    transition: 1s;
+    transform: translateY(80px);
+}
+
+.content-All.menos {
+    transition: 1s;
+    transform: translateY(0);
+    transition-delay: 100ms;
+}
+
+/*-----------------¿QUIÉN SOY?-----------------*/
+
+h1 {
+    text-align: center;
+}
+
+.quienSoy,
+.misMetas,
+.misProyectos,
+.contacto {
+    height: 200px;
+    padding-top: 80px;
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+
+.h1Quien.rot {
+    font-size: 25px;
+    width: 250px;
+    margin: auto;
+    transition: 3s;
+    transform: rotate(360deg);
+    color: yellow;
+}
+
+.contenidoQuien,
+.quien2 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(134, 112, 141, 0.3);
+    border-radius: 15px;
+    color: #000;
+    text-align: center;
+    opacity: 0;
+    padding: 10px;
+    line-height: 23px;
+}
+
+.imgTecnologias {
+    margin: 15px;
+}
+
+.quien2.opac {
+    transition: 6s;
+    opacity: 1;
+    transition-delay: 1s;
+    justify-content: space-around;
+}
+
+.contenidoQuien.opac {
+    transition: 6s;
+    opacity: 1;
+}
+
+.contenidoL1 {
+    width: 95%;
+    margin: auto;
+}
+
+.l1 {
+    width: 100%;
+}
+
+.contenidoQuien img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px
+}
+
+.quien2 h5 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    width: 100px;
+    height: 200px;
+    color: #e71c1c;
+}
+
+.ver {
+    writing-mode: vertical-lr;
+    text-align: center;
+    height: 300px;
+    color: #e71c1c;
+    padding-left: 30px;
+}
+
+.hid {
+    text-align: center;
+    color: #e71c1c;
+    display: none;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 10%;
+}
+
+.programWeb {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(134, 112, 141, 0.3);
+    border-radius: 15px;
+}
+
+.programWeb.efecto {
+    transition: 6s;
+    opacity: 1;
+    transition-delay: 1s;
+}
+
+.programWeb img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.websitesLanguage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.l1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.html.efecto,
+.css.efecto,
+.js.efecto,
+.bots.efecto,
+.php.efecto,
+.lar.efecto,
+.cplus.efecto,
+.ard.efecto,
+.matlab.efecto,
+.py.efecto,
+.java.efecto {
+    transition: 0.5s;
+    transform: rotate(360deg);
+}
+
+.newCode {
+    opacity: 0;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(134, 112, 141, 0.3);
+    border-radius: 15px;
+}
+
+.newCode.efecto {
+    transition: 6s;
+    opacity: 1;
+    transition-delay: 1s;
+}
+
+.newCode h5 {
+    text-align: center;
+    color: #e71c1c;
+}
+
+.newLanguage {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.newLanguage img {
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.react.efecto,
+.mongodb.efecto,
+.cSharp.efecto,
+.next.efecto,
+.angular.efecto,
+.vuejs.efecto {
+    transition: 0.5s;
+    transform: rotate(-360deg);
+}
+
+.contenidoProyectos,
+.contenidoContacto {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(134, 112, 141, 0.3);
+    border-radius: 15px;
+}
+
+.intereses {
+    width: 80%;
+    margin: auto;
+    padding: 50px 100px;
+    background-color: rgba(134, 112, 141, 0.3);
+    border-radius: 15px;
+}
+
+.intereses h5 {
+    text-align: center;
+    color: #e71c1c;
+}
+
+
+.carousel__elemento,
+.carousel__elementoProjects {
+    text-align: center;
+}
+
+
+
+.carousel__elemento img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.carousel__contenedor,
+.carousel__contenedorProyectos {
+    position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente,
+.carousel__anteriorProject,
+.carousel__siguienteProject {
+    position: absolute;
+    display: block;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+#flechaAnt,
+#flechaSig {
+    width: 50px;
+    height: 50px;
+    clip-path: circle(35%);
+}
+
+.carousel__siguiente,
+.carousel__siguienteProject {
+    right: -80px;
+}
+
+.carousel__anterior,
+.carousel__anteriorProject {
+    left: -80px;
+}
+
+.carousel__indicadores .glider-dot,
+.carousel__indicadoresProyecto .glider-dot {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    opacity: 0.2;
+    border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover,
+.carousel__indicadoresProyecto .glider-dot:hover {
+    opacity: 0.5;
+}
+
+.carousel__indicadores .glider-dot.active,
+.carousel__indicadoresProyecto .glider-dot.active {
+    opacity: 1;
+}
+
+
+/*--------------------METAS-------------*/
+.contenido-metas {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(134, 112, 141, 0.3);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.metasPersonales,
+.metasProfesionales {
+    width: 50%;
+}
+
+.contenido-metas h5 {
+    text-align: center;
+}
+
+
+/*RESPONSIVE*/
+@media (max-width:900px) {
+    .newLanguage {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .items {
+        display: none;
+    }
+
+    .hamburguesa {
+        display: flex;
+    }
+
+    .hamburguesa p {
+        color: #222;
+        margin-right: 5px;
+    }
+
+    .contenidoQuien {
+        display: block;
+        justify-content: center;
+    }
+
+    .contenidoQuien img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid red
+    }
+
+    .contenidoQuien p {
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    .l1 img,
+    .newLanguage img {
+        margin-left: 5px;
+    }
+
+    .hid {
+        display: block;
+    }
+
+    .ver {
+        display: none;
+    }
+
+    .skills {
+        display: block;
+        width: 80%;
+        margin-right: -10px;
+    }
+
+    .quien2 h5 {
+        width: 10%;
+    }
+
+    .carousel__contenedor,
+    .carousel__contenedorProyectos {
+        width: 95%;
+        margin: auto;
+    }
+
+    .intereses,
+    .contenidoProyectos {
+        padding: 0;
+    }
+
+    .carousel__siguiente,
+    .carousel__siguienteProject {
+        right: 0;
+        bottom: 50px !important;
+    }
+
+    .carousel__anterior,
+    .carousel__anteriorProject {
+        left: 0;
+        top: calc(50% - 35px);
+    }
+
+    .contenido-metas {
+        flex-direction: column;
+    }
+
+    .metasPersonales,
+    .metasProfesionales {
+        width: 95%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .metasProfesionales {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .newLanguage,
+    .l1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .newLanguage img {
+        margin: 10px auto;
+    }
+
+
+
+    .imgTecnologias {
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+
+}
+
+@media(max-width: 350px) {
+
+    .contenidoQuien,
+    .quien2,
+    .programWeb,
+    .newCode,
+    .intereses,
+    .contenidoProyectos {
+        width: 95%;
+    }
+
+    .skills {
+        width: 90%;
+    }
+
+    .l1 {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .h1Quien.rot {
+        width: 80%;
+        margin: auto;
+    }
+}
