@@ -444,6 +444,11 @@ iframe {
     height: 55px;
 }
 
+.discord:hover {
+    width: 55px;
+    height: 55px;
+}
+
 .content_redes {
     height: 70px;
     display: flex;
