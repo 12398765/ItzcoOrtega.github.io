@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!--ESTILOS DE Glider.js-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="profile">
+            <img src="img/profile.jpeg" alt="Profile" onclick="prof()">
+        </div>
+        <div class="items">
+            <a href="#metas">Mis metas</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contactoo">Contacto</a>
+        </div>
+        <div class="hamburguesa">
+            <span class="material-icons" onclick="verMenu()">
+                menu
+            </span>
+        </div>
+    </div>
+    <div class="items-hamburguesa">
+        <a href="#metas">Mis metas</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contactoo">Contacto</a>
+    </div>
+    <div class="content-All">
+        <!-----------------CONTENIDO QUIEN SOY?------------------ -->
+        <div class="quienSoy" id="quienSoy">
+            <h1 class="h1Quien">¿QUIEN SOY?</h1>
+        </div>
+        <div class="contenidoQuien mt-3">
+            <img src="img/profile.jpeg" alt="Profile Ixco" class="me-3">
+            <div>
+                <p>
+                    Mi nombre es Itzcoatl Ortega Santiago, actual estudiante de la carrera en Ingeniería en Desarrollo
+                    de
+                    Software.
+                </p>
+                <p>
+                    Egresado como tecnólogo en Control Automático e Instrumentación en el Centro de Enseñanza Técnica
+                    Industrial (CETI) plantel Colomos.
+                </p>
+                <p>
+                    Me considero un programador Junior, pero interesado en expandir mis conocimientos tanto en
+                    <span>Front End</span>, como en <span>BackEnd</span> para ser un excelente Full Stack.
+                </p>
+            </div>
+        </div>
+        <div class="quien2 mt-5">
+            <h5>HABILIDADES</h5>
+            <div class="skills">
+                <ul>
+                    <li>Trabajo en equipo.</li>
+                    <li>Constante en mis trabajos.</li>
+                    <li>Perseverante.</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Proactivo</li>
+                </ul>
+                <ul>
+                    <li>Autodidacta.</li>
+                    <li>Puntual</li>
+                    <li>Organizado</li>
+                    <li>Manejo del estrés</li>
+                    <li>Trato con la gente</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="programWeb mt-5">
+            <div style="display:block; width: 100%;">
+                <h5 class="hid">TECNOLOGÍAS QUE DOMINO</h5>
+                <div class="websitesLanguage">
+                    <div class="d-flex" style="justify-content: center; align-items: center;">
+                        <div class="contenidoL1">
+                            <div class="l1">
+                                <div class="imgTecnologias">
+                                    <img src="img/tecnologias/imgHTML.png" alt="HTML" class="html">
+                                    <p class="ms-3 mt-2">AVANZADO</p>
+                                </div>
+                                <div class="imgTecnologias">
+                                    <img src="img/tecnologias/imgCss.png" alt="CSS" class="css">
+                                    <p class="ms-3 mt-2">AVANZADO</p>
+                                </div>
+
+                                <div class="imgTecnologias">
+                                    <img src="img/tecnologias/imgJs.png" alt="JavaScript" class="js">
+                                    <p class="ms-3 mt-2">INTERMEDIO</p>
+                                </div>
+
+                                <div class="imgTecnologias">
+                                    <img src="img/tecnologias/imgBootstrap.jfif" alt="Bootstrap" class="bots">
+                                    <p class="ms-1 mt-2">INTERMEDIO</p>
+                                </div>
+
+                                <div class="imgTecnologias">
+                                    <img src="img/tecnologias/imgPhp.jfif" alt="PHP" class="php">
+                                    <p class="ms-1 mt-2">INTERMEDIO</p>
+                                </div>
+
+                                <div class="imgTecnologias">
+                                    <img src="img/tecnologias/imgReactjs.png" alt="react" class="react">
+                                    <p class="ms-1 mt-2 text-center">MUY BÁSICO</p>
+                                </div>
+
+                                <div class="imgTecnologias">
+                                    <img src="img/tecnologias/python.png" alt="python" class="py">
+                                    <p class="ms-1 mt-2 text-center">EN CURSO</p>
+                                </div>
+
+                                <div class="imgTecnologias">
+                                    <img src="img/tecnologias/laravel.png" alt="Laravel" class="lar">
+                                    <p class="ms-1 mt-2 text-center">EN CURSO</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <h5 class="ver">TECNOLOGÍAS QUE DOMINO</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="newCode mt-5">
+            <h5>INTERESADO EN APRENDER</h5>
+            <div class="newLanguage mt-3">
+                <img src="img/tecnologias/cSharp.jfif" alt="C#" class="cSharp">
+                <img src="img/tecnologias/next.jfif" alt="Combo Next.js" class="next">
+                <img src="img/tecnologias/imgMongoDB.png" alt="MongoDB" class="mongodb">
+                <img src="img/tecnologias/angular.png" alt="Angular" class="angular">
+                <img src="img/tecnologias/vuejs.png" alt="vueJS" class="vuejs">
+
+            </div>
+        </div>
+
+        <div class="intereses mt-5">
+            <h5>PASATIEMPOS</h5>
+            <div class="carousel__contenedor mt-5">
+                <div class="carousel__lista">
+                    <div class="carousel__elemento">
+                        <img src="img/pasatiempos/karaoke.png" alt="mis lecturas">
+                        <p>Me gusta cantar</p>
+                    </div>
+
+                    <div class="carousel__elemento">
+                        <img src="img/pasatiempos/lectura.png" alt="mis lecturas">
+                        <p>Me gusta leer</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/pasatiempos/musica.png" alt="mi música favorita">
+                        <p>Me gusta escuchar música</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/pasatiempos/Netflix.png" alt="Series y Películas">
+                        <p>Me gusta ver series y películas</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/pasatiempos/RDLN.png" alt="Relatos de la Noche">
+                        <p>Me gusta escuchar el podcast RDLN</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/pasatiempos/tutos.png" alt="mis lecturas">
+                        <p>Me gusta ver tutoriales de programación</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="img/pasatiempos/CoDMobile.png" alt="Juegos">
+                        <p>Me gustan los videojuegos</p>
+                    </div>
+                </div>
+
+                <img src="img/flechaLeft.png" alt="Flecha anterior" id="flechaAnt" aria-label="Anterior"
+                    class="carousel__anterior">
+
+                <img src="img/flechRight.png" alt="Flecha siguiente" id="flechaSig" aria-label="Siguiente"
+                    class="carousel__siguiente">
+
+            </div>
+            <div role="tablist" class="carousel__indicadores"></div>
+        </div>
+
+        <!--------------CONTENIDO MIS METAS------------------------>
+        <div class="misMetas mt-5" id="metas">
+            <h1 class="h1Metas">MIS METAS</h1>
+        </div>
+        <div class="contenido-metas mt-5">
+            <div class="metasPersonales">
+                <div style="display: block;">
+                    <h5>METAS PERSONALES</h5>
+                    <ul>
+                        <li>Casarme y formar una familia.</li>
+                        <li>Conocer distintas ciudades y países</li>
+                        <li>Aprender inglés al 100% hablado, escrito y en listening</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="metasProfesionales">
+                <div style="display: block;">
+                    <h5>METAS PROFESIONALES</h5>
+                    <ul class="mt-4">
+                        <li>Terminar mi carrera profesional</li>
+                        <li>Trabajar en una empresa en donde pueda crecer profesionalmente, en donde pueda colaborar con
+                            expertos
+                            tanto del lado del Front-End como del Back-End y aprender de ellos, enfocándome en los
+                            objetivos y metas
+                            de la empresa.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-----------CONTENIDO PROYECTOS---------------------------->
+        <div class="misProyectos mt-5" id="proyectos">
+            <h1 class="h1Proyectos">Proyectos Realizados</h1>
+        </div>
+        <div class="contenidoProyectos mt-5">
+            <div class="carousel__contenedorProyectos mt-5">
+
+                <div class="carousel__listaProyects">
+                    <div class="carousel__elementoProjects ps-3 pe-3">
+                        <iframe width="200" height="150" src="https://www.youtube.com/embed/sl4t-FLKKNU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p>Compañía que ofrece fotos y cuadros creados mediante Inteligencia Artificial</p>
+                        <a class="btn btn-sm btn-danger"
+                            href="https://github.com/12398765/ArteInteligenciaArtificial.git" target="_blank">
+                            Ver en GitHub
+                        </a>
+                        <p class="text-center mt-3"><b>Tecnologías empleadas</b></p>
+                        <p>HTML5, CSS, Bootstrap, Js</p>
+                    </div>
+
+                    <div class="carousel__elementoProjects ps-3 pe-3">
+                        <iframe width="200" height="150" src="https://www.youtube.com/embed/xxepmpbSdsw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p>Empresa de Videojuegos que busca vender sus productos </p>
+                        <a class="btn btn-sm btn-danger" href="https://github.com/12398765/PotaxioStudio.git"
+                            target="_blank">
+                            Ver en GitHub
+                        </a>
+                        <p class="text-center mt-3"><b>Tecnologías empleadas</b></p>
+                        <p>HTML5, CSS, Bootstrap, Js</p>
+                    </div>
+
+                    <div class="carousel__elementoProjects ps-3 pe-3">
+                        <iframe width="200" height="150" src="https://www.youtube.com/embed/pSFwQLLjF4E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                        <p>Sistema CRUD con autenticación. Envía correos electrónicos desde el website</p>
+                        <a class="btn btn-sm btn-danger" href="https://github.com/12398765/CRUD.git" target="_blank">
+                            Ver en GitHub
+                        </a>
+                        <p class="text-center mt-3"><b>Tecnologías empleadas</b></p>
+                        <p>HTML5, PHP, CSS, Bootstrap, Js</p>
+                    </div>
+
+
+                    <div class="carousel__elementoProjects ps-3 pe-3">
+                        <iframe width="200" height="150" src="https://www.youtube.com/embed/r9Obb1M5bEo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p>CRUD de tareas relacionadas a una categorías. CRUD de categorías</p>
+                        <a class="btn btn-sm btn-danger" href="https://github.com/12398765/CRUD_laravel.git"
+                            target="_blank">
+                            Ver en GitHub
+                        </a>
+                        <p class="text-center mt-3"><b>Tecnologías empleadas</b></p>
+                        <p>Laravel, HTML, Bootstrap</p>
+                    </div>
+
+                </div>
+
+                <img src="img/flechaLeft.png" alt="Flecha anterior" id="flechaAnt2" aria-label="Anterior"
+                    class="carousel__anteriorProject">
+
+                <img src="img/flechRight.png" alt="Flecha siguiente" id="flechaSig2" aria-label="Siguiente"
+                    class="carousel__siguienteProject">
+
+            </div>
+            <div role="tablist" class="carousel__indicadoresProyecto"></div>
+        </div>
+
+        <div class="contacto mt-5" id="contactoo">
+            <h1 class="h1Contacto">CONTÁCTAME</h1>
+        </div>
+
+        <div class="contenidoContacto mt-5 p-3 text-center">
+            <p>Envíame un mensaje a alguna de las siguientes ligas:</p>
+            <div class="content_redes">
+                <div class="content_redes_a">
+                    <a href=" https://wa.me/523319087302?text=He%20visto%20tu%20website%20y%20estoy%20interesado%20en%20contratarte"
+                        target="_blank">
+                        <img src="img/contacto/whats.jpg" class="red_social whats" alt="whatsApp"></a>
+                </div>
+
+                <div class="content_redes_a">
+                    <a href="https://www.facebook.com/1tzco" target="_blank">
+                        <img src="img/contacto/messenger.jpg" class="red_social mess" alt="messenger">
+                    </a>
+                </div>
+
+                <div class="content_redes_a">
+                    <a href="mailto:ix.obsid@gmail.com" target="_blank">
+                        <img src="img/contacto/gmail.png" class="red_social gmail" alt="gmail">
+                    </a>
+                </div>
+
+                <div class="content_redes_a">
+                    <a href="https://discordapp.com/channels/@me/1870/" target="_blank">
+                        <img src="img/contacto/discord.png" class="red_social discord" alt="Discord">
+                    </a>
+                </div>
+            </div>
+            <p class="text-center mt-3"><strong>Cel:</strong> +52 3324081350</p>
+            <p class="text-center mt-3"><strong>Email:</strong> ix.obsid@gmail.com</p>
+            <p class="text-center mt-3">Guadalajara Jalisco, México</p>
+        </div>
+
+    </div><br>
+</body>
+<!--CARROUSEL CON Glider.js-->
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/main.js"></script>
+
+</html>
