@@ -129,20 +129,8 @@ document.querySelector(".php").addEventListener("mouseover", () => {
 document.querySelector(".lar").addEventListener("mouseover", () => {
     document.querySelector(".lar").classList.add("efecto");
 })
-document.querySelector(".cplus").addEventListener("mouseover", () => {
-    document.querySelector(".cplus").classList.add("efecto");
-})
-document.querySelector(".java").addEventListener("mouseover", () => {
-    document.querySelector(".java").classList.add("efecto");
-})
 document.querySelector(".mongodb").addEventListener("mouseover", () => {
     document.querySelector(".mongodb").classList.add("efecto");
-})
-document.querySelector(".ard").addEventListener("mouseover", () => {
-    document.querySelector(".ard").classList.add("efecto");
-})
-document.querySelector(".matlab").addEventListener("mouseover", () => {
-    document.querySelector(".matlab").classList.add("efecto");
 })
 document.querySelector(".py").addEventListener("mouseover", () => {
     document.querySelector(".py").classList.add("efecto");
@@ -168,20 +156,8 @@ document.querySelector(".php").addEventListener("mouseout", () => {
 document.querySelector(".lar").addEventListener("mouseout", () => {
     document.querySelector(".lar").classList.remove("efecto");
 })
-document.querySelector(".cplus").addEventListener("mouseout", () => {
-    document.querySelector(".cplus").classList.remove("efecto");
-})
-document.querySelector(".java").addEventListener("mouseout", () => {
-    document.querySelector(".java").classList.remove("efecto");
-})
 document.querySelector(".mongodb").addEventListener("mouseout", () => {
     document.querySelector(".mongodb").classList.remove("efecto");
-})
-document.querySelector(".ard").addEventListener("mouseout", () => {
-    document.querySelector(".ard").classList.remove("efecto");
-})
-document.querySelector(".matlab").addEventListener("mouseout", () => {
-    document.querySelector(".matlab").classList.remove("efecto");
 })
 document.querySelector(".py").addEventListener("mouseout", () => {
     document.querySelector(".py").classList.remove("efecto");
